@@ -7,7 +7,7 @@
 #### ROS2 official documentations are very good and should be the main source of learning
 - **ROS2 Jazzy official Documentation**  (`https://docs.ros.org/en/jazzy/index.html`)
 #### This is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial if for ROS2 Humble, the basic concepts are same
-- **Youtube Tutorial** (`https://youtu.be/C6eQ6VwTpxk?si=884uxn9IBFt9s_Mw`)
+- [**Youtube Tutorial**] (`https://youtu.be/C6eQ6VwTpxk?si=884uxn9IBFt9s_Mw`)
 
 
 # Webots Simulator
