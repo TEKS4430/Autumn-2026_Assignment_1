@@ -121,7 +121,7 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 
 ---
 
-## 3. Daily workflow
+## 3. Workflow
 
 ```
 1. Open Webots on your host OS, open the assignment world file (in webots simulator, File -> Open World)
@@ -133,6 +133,9 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 ```
 
 ---
+
+### You should get that text marked in red in your webots terminal shown in the image
+![Webots window](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/webots.png)
 
 ## 4. Building and running
 
@@ -170,6 +173,10 @@ ros2 launch my_package robot.launch.py
 
 > Make sure Webots is already open with the correct world before running this.
 > You should get a message on the terminal that webots simulator is successfully connected
+
+![VSCode open](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/opening%20vs%20code.png)
+![Reopen in container](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/reopen.png)
+![build and launch](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/build_launch.png)
 
 ### Then in another terminal inside vscode run this commands:
 ```bash
