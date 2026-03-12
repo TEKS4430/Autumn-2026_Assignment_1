@@ -130,6 +130,8 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 2. Open VS Code → Reopen in Container (instant after first build)
 ![VSCode open](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/opening%20vs%20code.png)
 ![Reopen in container](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/reopen.png)
+##### It will take some time to build the container. After building it will take you to a terminal inside the container. If you closed it or somehow it's gone jut open a new terminal in VSCode, that'll also be inside the container.
+
 3. Edit code in VS Code as normal
 4. Open terminal in VS Code (Ctrl+`) — this is inside the container
 5. Build and run your ROS2 code from that terminal
@@ -179,7 +181,7 @@ ros2 launch my_package robot.launch.py
 
 
 
-#### It will take some time to build the container. After building it will take you to a terminal inside the container. If you closed it or somehow it's gone jut open a new terminal in VSCode, that'll also be inside the container, then..
+
 ![build and launch](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/build_launch.png)
 
 ### Then in another terminal inside vscode run this commands:
