@@ -134,7 +134,7 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 4. Open terminal in VS Code (Ctrl+`) — this is inside the container
 5. Build and run your ROS2 code from that terminal
 6. When done, push your code from a HOST terminal (not container)
-```
+
 
 
 
