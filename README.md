@@ -2,21 +2,25 @@
 
 ## Part A
 
-# ROS2 Basics
+## ROS2 Basics
 ### ROS2 jazzy will be used throughout the exercises
 #### ROS2 official documentations are very good and should be the main source of learning
 - [ROS2 Jazzy official Documentation](https://docs.ros.org/en/jazzy/index.html)
-#### This is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial if for ROS2 Humble, the basic concepts are same
+#### This is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial is for ROS2 Humble, the basic concepts are same
 - [Youtube Tutorial](https://youtu.be/C6eQ6VwTpxk?si=884uxn9IBFt9s_Mw)
 
 
-# Webots Simulator
+## Webots Simulator
 ### Webots simulator will be used in this course. The main purpuse behind choosing this is it is lightweight, open-source and runs on lower or no GPUs.
 ####  Webots official documentations are also quite good. Familiarize with the simulator 
 - [Webots Documentation](https://www.cyberbotics.com/doc/guide/index)
 #### There are some youtube tutorial series to follow for get a quick understanding of the simulator. 
 - [Youtube Tutorial](https://youtu.be/luyg3plGujg?si=W8zWztR1vgbkMp-z)
 
+
+### For this task you will have to set up the environment following the instructions. The following instructions first asks for installing Webots on your computer, then creates a Docker container with ros2 Jazzy installed in it. The container also contains the ros2 package for the task which you can edit later. The purpose of the Docker container is to tackle version compatibility between your OS and ros2 jazzy. 
+
+#### If you want to install everything on your computer without Docker, then follow the official docs for [ROS2 Jazzy official Documentation](https://docs.ros.org/en/jazzy/index.html) to install it then Download and install [Webots](https://cyberbotics.com/) then follow this tutorial: [Webots with Ros2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
 
 
 > **Environment:** ROS2 Jazzy (Docker) + Webots (native on your OS)
@@ -239,23 +243,8 @@ assignmentX/
 
 --- -->
 
-## 7. Submitting your work
 
-Git is always used from your **host machine terminal** — not from inside the container.
-
-```bash
-# In a normal terminal on your host machine:
-git add src/
-git commit -m "Assignment X: describe what you implemented"
-git push origin main
-```
-
-> Never commit: `build/`, `install/`, `log/` — these are in `.gitignore`.
-> Never commit: `.env` — it contains your local OS settings.
-
----
-
-## 8. Troubleshooting
+## 7. Troubleshooting
 
 **"Reopen in Container" doesn't appear**
 → Install the **Dev Containers** extension by Microsoft in VS Code.
