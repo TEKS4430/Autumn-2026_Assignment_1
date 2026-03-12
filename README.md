@@ -3,24 +3,28 @@
 ## Part A
 
 ## ROS2 Basics
-### ROS2 jazzy will be used throughout the exercises
-#### ROS2 official documentations are very good and should be the main source of learning
-- [ROS2 Jazzy official Documentation](https://docs.ros.org/en/jazzy/index.html)
-#### This is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial is for ROS2 Humble, the basic concepts are same
-- [Youtube Tutorial](https://youtu.be/C6eQ6VwTpxk?si=884uxn9IBFt9s_Mw)
+#### ROS2 Jazzy will be used throughout the exercises.
+
+#### The ROS2 official documentation is very good and should be your main source of learning.
+- [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html)
+
+#### This is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial is for ROS2 Humble, the basic concepts are the same.
+- [YouTube Tutorial](https://youtu.be/C6eQ6VwTpxk?si=884uxn9IBFt9s_Mw)
 
 
 ## Webots Simulator
-### Webots simulator will be used in this course. The main purpuse behind choosing this is it is lightweight, open-source and runs on lower or no GPUs.
-####  Webots official documentations are also quite good. Familiarize with the simulator 
+#### The Webots simulator will be used in this course. The main purpose of choosing it is that it is lightweight, open-source, and runs on systems with low or no GPU requirements.
+
+#### The Webots official documentation is also quite good. Familiarize yourself with the simulator.
 - [Webots Documentation](https://www.cyberbotics.com/doc/guide/index)
-#### There are some youtube tutorial series to follow for get a quick understanding of the simulator. 
-- [Youtube Tutorial](https://youtu.be/luyg3plGujg?si=W8zWztR1vgbkMp-z)
+
+#### There are some YouTube tutorial series you can follow to get a quick understanding of the simulator.
+- [YouTube Tutorial](https://youtu.be/luyg3plGujg?si=W8zWztR1vgbkMp-z)
 
 
-### For this task you will have to set up the environment following the instructions. The following instructions first asks for installing Webots on your computer, then creates a Docker container with ros2 Jazzy installed in it. The container also contains the ros2 package for the task which you can edit later. The purpose of the Docker container is to tackle version compatibility between your OS and ros2 jazzy. 
+#### For this task you will need to set up the environment by following the instructions below. The instructions first ask you to install Webots on your computer, and then create a Docker container with ROS2 Jazzy installed in it. The container also contains the ROS2 package for the task, which you can edit later. The purpose of the Docker container is to handle version compatibility between your OS and ROS2 Jazzy.
 
-#### If you want to install everything on your computer without Docker, then follow the official docs for [ROS2 Jazzy official Documentation](https://docs.ros.org/en/jazzy/index.html) to install it then Download and install [Webots](https://cyberbotics.com/) then follow this tutorial: [Webots with Ros2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
+#### If you want to install everything directly on your computer without Docker, follow the official documentation for installing ROS2 Jazzy: [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html). Then download and install [Webots](https://cyberbotics.com/) and follow this tutorial: [Webots with ROS2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
 
 
 > **Environment:** ROS2 Jazzy (Docker) + Webots (native on your OS)
@@ -28,6 +32,7 @@
 ---
 
 ## How it works
+
 
 ```
 Your computer
@@ -40,7 +45,6 @@ Your computer
 
 You write and edit code on your host machine using VS Code.
 The code runs and builds inside the container.
-Git is always used from your host machine terminal — never from inside the container.
 
 ---
 
@@ -79,8 +83,8 @@ Install these two extensions in VS Code (`Ctrl+Shift+X`):
 ### Step 1 — Clone the repo
 
 ```bash
-git clone git@github.com:BuyingANew-Soul/cyber-physical-course-assignment.git
-cd cyber-physical-course-assignment
+git clone git@github.com:TEKS4430/Spring-2026_Task_1.git
+cd Spring-2026_Task_1
 ```
 
 ### Step 2 — Create your .env file
@@ -125,13 +129,12 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 
 
 1. Open Webots on your host OS, open the assignment world file (in webots simulator, File -> Open World)
-### You should get that text marked in red in your webots terminal shown in the image
+### You should see the text in your Webots terminal as shown in the image marked in red.
 ![Webots window](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/webots.png)
 2. Open VS Code → Reopen in Container (instant after first build)
 ![VSCode open](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/opening%20vs%20code.png)
 ![Reopen in container](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/reopen.png)
-##### It will take some time to build the container. After building it will take you to a terminal inside the container. If you closed it or somehow it's gone jut open a new terminal in VSCode, that'll also be inside the container.
-
+##### The first time it will take some time to build the container. After building, it will open a terminal inside the container. If you close it or it disappears, simply open a new terminal in VS Code — it will also be inside the container.
 3. Edit code in VS Code as normal
 4. Open terminal in VS Code (Ctrl+`) — this is inside the container
 5. Build and run your ROS2 code from that terminal
@@ -189,7 +192,7 @@ ros2 launch my_package robot.launch.py
 source install/setup.bash
 ros2 topic pub /cmd_vel geometry_msgs/Twist  "linear: { x: 0.1 }"
 ```
-### The robot should be moving in the simulator
+### The robot should be moving in the simulator (Congratulations!)
 <!-- ### Run a single node
 
 ```bash
