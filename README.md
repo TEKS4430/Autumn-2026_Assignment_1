@@ -125,7 +125,11 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 
 ```
 1. Open Webots on your host OS, open the assignment world file (in webots simulator, File -> Open World)
+### You should get that text marked in red in your webots terminal shown in the image
+![Webots window](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/webots.png)
 2. Open VS Code → Reopen in Container (instant after first build)
+![VSCode open](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/opening%20vs%20code.png)
+![Reopen in container](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/reopen.png)
 3. Edit code in VS Code as normal
 4. Open terminal in VS Code (Ctrl+`) — this is inside the container
 5. Build and run your ROS2 code from that terminal
@@ -134,8 +138,7 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 
 ---
 
-### You should get that text marked in red in your webots terminal shown in the image
-![Webots window](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/webots.png)
+
 
 ## 4. Building and running
 
@@ -174,8 +177,8 @@ ros2 launch my_package robot.launch.py
 > Make sure Webots is already open with the correct world before running this.
 > You should get a message on the terminal that webots simulator is successfully connected
 
-![VSCode open](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/opening%20vs%20code.png)
-![Reopen in container](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/reopen.png)
+
+
 #### It will take some time to build the container. After building it will take you to a terminal inside the container. If you closed it or somehow it's gone jut open a new terminal in VSCode, that'll also be inside the container, then..
 ![build and launch](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/build_launch.png)
 
