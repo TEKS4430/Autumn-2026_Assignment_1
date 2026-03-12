@@ -123,7 +123,7 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 
 ## 3. Workflow
 
-```
+
 1. Open Webots on your host OS, open the assignment world file (in webots simulator, File -> Open World)
 ### You should get that text marked in red in your webots terminal shown in the image
 ![Webots window](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/webots.png)
@@ -136,7 +136,7 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 6. When done, push your code from a HOST terminal (not container)
 ```
 
----
+
 
 
 
