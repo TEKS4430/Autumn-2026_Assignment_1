@@ -2,6 +2,20 @@
 
 ## Part A
 
+In this first assignment, you will study the basics of ROS 2 and set up the environment for completing all assignments in this course.
+
+ROS 2 — which stands for Robot Operating System 2 — is a framework (not a real operating system in the traditional sense) for implementing robotics and autonomous machine systems. It provides a decentralized architecture and a way to implement nodes, which are used to package desired features for an autonomous cyber-physical system (CPS). It also provides an open-source community that offers peer support and a forum for distributing implemented packages to others. Since we unfortunately do not have access to real robotics hardware in this course, we will use simulations instead. As a simulation environment, we will use Webots, which provides tools for assembling different types of robots and sensor systems.
+
+In this first assignment, you will study ROS 2 basics in a way that suits you best. We have provided links to videos and online tutorials. It is also highly recommended that you use AI tools (such as Claude, ChatGPT, Gemini, Copilot, etc.) to help explain ROS 2 concepts that you want to understand better. These tools can also be very helpful if you encounter technical issues. One of the learning outcomes of this course is to learn how to use AI tools in the development of autonomous cyber-physical systems.
+
+It is completely up to you how you choose to use AI tools. The only mandatory requirement is to report (Part B) how you used them and provide some self-reflection on your motivation for using these tools, what you learned, and how you verified that your output is correct.
+
+After finishing your assignment, you will submit a video report describing what you implemented (Part A) and how you used AI tools (Part B). Your implementation and AI usage will then be peer-reviewed by other students (Part C).
+
+Each part (A, B, and C) is mandatory and will affect your final grade.
+
+
+
 ## ROS2 Basics
 #### ROS2 Jazzy will be used throughout the exercises.
 
