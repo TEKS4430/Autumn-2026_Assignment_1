@@ -19,17 +19,17 @@ Each part (A, B, and C) is mandatory and will affect your final grade.
 ## ROS2 Basics
 #### ROS2 Jazzy will be used throughout the exercises.
 
-#### The ROS2 official documentation is very good and should be your main source of learning.
+#### The ROS2 official documentation is very good and can be your main source of learning.
 - [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html)
 
-#### This is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial is for ROS2 Humble, the basic concepts are the same.
+#### The following is a good tutorial series by Kevin Wood (Robotics and AI channel). Although this tutorial is for ROS2 Humble, the basic concepts are the same.
 - [YouTube Tutorial](https://youtu.be/C6eQ6VwTpxk?si=884uxn9IBFt9s_Mw)
 
 
 ## Webots Simulator
 #### The Webots simulator will be used in this course. The main purpose of choosing it is that it is lightweight, open-source, and runs on systems with low or no GPU requirements.
 
-#### The Webots official documentation is also quite good. Familiarize yourself with the simulator.
+#### The Webots official documentation is good. Familiarize yourself with the basics of the simulator.
 - [Webots Documentation](https://www.cyberbotics.com/doc/guide/index)
 
 #### There are some YouTube tutorial series you can follow to get a quick understanding of the simulator.
