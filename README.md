@@ -346,7 +346,7 @@ We recommend using Microsoft Teams, as it allows you to record both your screen 
 
 ![create_sharelink](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/accessrights.png)
 
-<center>
+<p align="center">
 <img src="https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/link_settings.png" width=50% height=50%>    
-</center>
+</p>
 
