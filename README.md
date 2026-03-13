@@ -317,15 +317,15 @@ In part B, you will reflect on the new skills you have learned and analyze your 
 
 If you did not use AI tools, you should focus on self-reflection regarding your own learning process and discuss your motivations for not using AI as a tool.
 
-The use of AI tools is also allowed in completing part B. However, you should still take responsibility for your own learning and approach the task seriously. Ultimately, you are studying for your own benefit.
+The use of AI tools is also allowed in completing part B. However, you should still take responsibility for your own learning and approach the reporting seriously. Ultimately, you are studying for your own benefit.
 
 The use of AI must be reported transparently and appropriately (this is also required by university policies). When completing Sections A and B (note: AI use is generally prohibited in part C), you must keep detailed records of:
 
-which AI tools you used (e.g., ChatGPT, Copilot, Gemini, Codex, VSCode extensions, etc.),
+- which AI tools you used (e.g., ChatGPT, Copilot, Gemini, Codex, VSCode extensions, etc.),
 
-the specific language model version (e.g., GPT-5.2),
+- the specific language model version (e.g., GPT-5.2),
 
-and the settings or modes used (e.g., thinking mode, instant mode, or agent mode).
+- and the settings or modes used (e.g., thinking mode, instant mode, or agent mode).
 
 You may also use any other models or technologies, such as locally running language models in your own environment (for example, models run through environments like Ollama) or other AI agents.
 
