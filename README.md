@@ -346,4 +346,4 @@ We recommend using Microsoft Teams, as it allows you to record both your screen 
 
 ![create_sharelink](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/accessrights.png)
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+<img src="[[https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/link_settings.png)](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/link_settings.png)" width=50% height=50%>
