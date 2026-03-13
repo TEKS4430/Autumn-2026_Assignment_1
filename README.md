@@ -343,3 +343,5 @@ This process will not only teach you how to present your work to others, but it 
 We recommend using Microsoft Teams, as it allows you to record both your screen and voice. The recordings are automatically uploaded to SharePoint, which makes it easy to share your recording later for the peer review assignment. Alternatively, you may use other software such as QuickTime Player or OBS to record your video and then upload the recording to SharePoint.
 
 **Important:** You must ensure that your recording is accessible to others who have the link. So, check (via Sharepoint user interface in your browser) that you share the correct link. You should ensure for example in privacy mode that in another browser that the link is truly accessible.
+
+![build and launch](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/accessrights.png)
