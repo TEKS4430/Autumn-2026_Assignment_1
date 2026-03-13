@@ -1,6 +1,6 @@
 # Spring-2026_Task_1
 
-## Part A
+## Part A: Implementation
 
 In this first assignment, you will study the basics of ROS 2 and set up the environment for completing all assignments in this course.
 
@@ -311,9 +311,25 @@ source /opt/ros/jazzy/setup.bash
 
 
 
-## Part B
+## Part B: Self-reflection and AI use
 
-Report how you have used AI
+In part B, you will reflect on the new skills you have learned and analyze your own work and learning process. You will consider what technical skills you learned while completing part A, what tools you used, why you chose to use them, and what benefits or challenges were associated with their use.
+
+If you did not use AI tools, you should focus on self-reflection regarding your own learning process and discuss your motivations for not using AI as a tool.
+
+The use of AI tools is also allowed in completing part B. However, you should still take responsibility for your own learning and approach the task seriously. Ultimately, you are studying for your own benefit.
+
+The use of AI must be reported transparently and appropriately (this is also required by university policies). When completing Sections A and B (note: AI use is generally prohibited in part C), you must keep detailed records of:
+
+which AI tools you used (e.g., ChatGPT, Copilot, Gemini, Codex, VSCode extensions, etc.),
+
+the specific language model version (e.g., GPT-5.2),
+
+and the settings or modes used (e.g., thinking mode, instant mode, or agent mode).
+
+You may also use any other models or technologies, such as locally running language models in your own environment (for example, models run through environments like Ollama) or other AI agents.
+
+The primary motivation of this section is to encourage continuous reflection on your learning, both in terms of technical skills and the technologies used to implement solutions.
 
 
 ## Returning instructions
