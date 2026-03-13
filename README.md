@@ -44,8 +44,9 @@ The code runs and builds inside the container.
 ---
 
 #### Alternative way
-If you want to install everything directly on your computer without Docker, follow the official documentation for installing ROS2 Jazzy: [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html). Then download and install [Webots](https://cyberbotics.com/) and follow this tutorial: [Webots with ROS2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
+If you don't want to use Docker and want to install everything directly on your computer, follow the official documentation for installing ROS2 Jazzy: [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html). Then download and install [Webots](https://cyberbotics.com/) and follow this tutorial: [Webots with ROS2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
 
+Notice that not all features and packages are available when running ROS 2 on macOS and Windows without virtualization.
 
 > **Environment:** ROS2 Jazzy (Docker) + Webots (native on your OS)
 
