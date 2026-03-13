@@ -323,15 +323,23 @@ The use of AI must be reported transparently and appropriately (this is also req
 
 - which AI tools you used (e.g., ChatGPT, Copilot, Gemini, Codex, VSCode extensions, etc.),
 
-- the specific language model version (e.g., GPT-5.2),
+- the specific language model version (e.g., GPT-5.4),
 
 - and the settings or modes used (e.g., thinking mode, instant mode, or agent mode).
 
-You may also use any other models or technologies, such as locally running language models in your own environment (for example, models run through environments like Ollama) or other AI agents.
+You may also use any other models or technologies, such as locally running language models in your own environment (for example, models run through environments like Ollama) or other AI agent systems.
 
 The primary motivation of this section is to encourage continuous reflection on your learning, both in terms of technical skills and the technologies used to implement solutions.
 
 
 ## Returning instructions
 
-- Create a video that reports Parts A and B, so demonstrates that you have got the environment up and running, implemented teleoperation, and reports how you have used AI in the assignment
+The assignment must be submitted in video format. Create a video that reports Parts A and B, demonstrating that you have successfully set up the environment, explaining how you learned to use your codebase, and presenting your self-reflection as well as describing how you used AI in the assignment.
+
+In the video, use software such as Microsoft Teams to record your screen while presenting and recording your voice. In the recording, you should demonstrate that your environment is running correctly and show the most essential parts of your codebase. In addition, you should use PowerPoint, Google Slides, or a similar tool to document Part B and present it in the video.
+
+This process will not only teach you how to present your work to others, but it will also help facilitate peer learning and support among students. Although in this first assignment there is only a small amount of technical implementation to report, you will learn the submission procedure that will be used for the rest of the assignments, which will be much more implementation-oriented.
+
+We recommend using Microsoft Teams, as it allows you to record both your screen and voice. The recordings are automatically uploaded to SharePoint, which makes it easy to share your recording later for the peer review assignment. Alternatively, you may use other software such as QuickTime Player or OBS to record your video and then upload the recording to SharePoint.
+
+Important: You must ensure that your recording is accessible to others who have the link.
