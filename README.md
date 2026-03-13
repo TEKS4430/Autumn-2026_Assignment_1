@@ -24,7 +24,7 @@
 
 #### For this task you will need to set up the environment by following the instructions below. The instructions first ask you to install Webots on your computer, and then create a Docker container with ROS2 Jazzy installed in it. The container also contains the ROS2 package for the task, which you can edit later. The purpose of the Docker container is to handle version compatibility between your OS and ROS2 Jazzy.
 
----
+
 
 ## How it works
 
@@ -41,7 +41,10 @@ Your computer
 You write and edit code on your host machine using VS Code.
 The code runs and builds inside the container.
 
-#### If you want to install everything directly on your computer without Docker, follow the official documentation for installing ROS2 Jazzy: [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html). Then download and install [Webots](https://cyberbotics.com/) and follow this tutorial: [Webots with ROS2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
+---
+
+#### Alternative way
+If you want to install everything directly on your computer without Docker, follow the official documentation for installing ROS2 Jazzy: [ROS2 Jazzy Official Documentation](https://docs.ros.org/en/jazzy/index.html). Then download and install [Webots](https://cyberbotics.com/) and follow this tutorial: [Webots with ROS2 Jazzy](https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html)
 
 
 > **Environment:** ROS2 Jazzy (Docker) + Webots (native on your OS)
