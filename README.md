@@ -311,7 +311,7 @@ source /opt/ros/jazzy/setup.bash
 
 
 
-## Part B: Self-reflection and AI use
+## Part B: Use of AI tools and self-reflection
 
 In part B, you will reflect on the new skills you have learned and analyze your own work and learning process. You will consider what technical skills you learned while completing part A, what tools you used, why you chose to use them, and what benefits or challenges were associated with their use.
 
