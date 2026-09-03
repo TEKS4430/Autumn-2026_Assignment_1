@@ -1,4 +1,4 @@
-# Spring-2026_Task_1
+# Assignment 1
 
 ## Part A: Implementation
 
