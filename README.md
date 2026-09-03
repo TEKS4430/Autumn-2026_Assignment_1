@@ -102,8 +102,8 @@ Install these two extensions in VS Code (`Ctrl+Shift+X`):
 ### Step 1 — Clone the repo
 
 ```bash
-git clone git@github.com:TEKS4430/Spring-2026_Task_1.git
-cd Spring-2026_Task_1
+git clone git@github.com:TEKS4430/Autumn-2026_Assignment_1.git
+cd Autumn-2026_Assignment_1
 ```
 
 ### Step 2 — Create your .env file
@@ -149,10 +149,10 @@ When the bottom-left corner of VS Code shows **"Dev Container: ROS2 Jazzy"** you
 
 1. Open Webots on your host OS, open the assignment world file (in webots simulator, File -> Open World)
 ### You should see the text in your Webots terminal as shown in the image marked in red.
-![Webots window](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/webots.png)
+![Webots window](https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/webots.png)
 2. Open VS Code → Reopen in Container (instant after first build)
-![VSCode open](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/opening%20vs%20code.png)
-![Reopen in container](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/reopen.png)
+![VSCode open](https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/opening%20vs%20code.png)
+![Reopen in container](https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/reopen.png)
 ##### The first time it will take some time to build the container. After building, it will open a terminal inside the container. If you close it or it disappears, simply open a new terminal in VS Code — it will also be inside the container.
 3. Edit code in VS Code as normal
 4. Open terminal in VS Code (Ctrl+`) — this is inside the container
@@ -204,7 +204,7 @@ ros2 launch my_package robot.launch.py
 
 
 
-![build and launch](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/build_launch.png)
+![build and launch](https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/build_launch.png)
 
 ### Then in another terminal inside vscode run this commands:
 ```bash
@@ -344,9 +344,9 @@ We recommend using Microsoft Teams, as it allows you to record both your screen 
 
 **Important:** You must ensure that your recording is accessible to others who have the link. So, via Sharepoint user interface in your browser (see below) define the shared settings so that anyone who has the link can access the file for maximum number of days. Finally, you should ensure for example in privacy mode or another browser that the link is truly accessible without login.
 
-![create_sharelink](https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/accessrights.png)
+![create_sharelink](https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/accessrights.png)
 
 <p align="center">
-<img src="https://github.com/TEKS4430/Spring-2026_Task_1/blob/main/screenshots/link_settings.png" width=50% height=50%>    
+<img src="https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/link_settings.png" width=50% height=50%>    
 </p>
 
