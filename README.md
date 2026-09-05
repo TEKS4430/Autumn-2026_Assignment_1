@@ -195,7 +195,7 @@ cbs my_package    # alias for: colcon build --symlink-install --packages-select
 ### Launch the full simulation
 
 ```bash
-ros2 launch my_package robot.launch.py
+ros2 launch my_package robot_launch.py
 ```
 
 > Make sure Webots is already open with the correct world before running this.
@@ -245,7 +245,7 @@ assignmentX/
 │       │   ├── __init__.py
 │       │   └── example_node.py # starter node — copy & modify
 │       ├── launch/
-│       │   └── robot.launch.py # launch file
+│       │   └── robot_launch.py # launch file
 │       ├── resource/
 │       ├── package.xml
 │       ├── setup.py            # register new nodes here
